@@ -35,10 +35,10 @@ while True:
         break
     else:
         print("meghdar na motabar!")
-while True:
-    y_or_n=input("namayesh meno(y) ya khoroj(n)")
-    if y_or_n == "y":
-        continue
-    elif y_or_n == "n":
-        print("bye")
-    break
+    while True:
+        y_or_n=input("namayesh meno(y) ya khoroj(n)")
+        if y_or_n == "y":
+            continue
+        elif y_or_n == "n":
+            print("bye")
+        break

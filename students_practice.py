@@ -19,4 +19,4 @@ run_query("""
     )
 """)
 
-run_query("select * from students order by age limit 1")
+run_query("select * from students order by age limit 3")
