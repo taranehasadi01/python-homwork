@@ -24,9 +24,11 @@ while len(visited) <4 and lives > 0:
         print("|room|")
         print("|(?) |")
         print("|____|")
-        
-        current_room=int(input("enter room's number that you ready go there:"))
-
+        try:
+            current_room=int(input("enter room's number that you ready go there:"))
+        except ValueError:
+            print("plras enter number")
+            continue
         if current_room in visited:
             print("You already visited this room! Choose another one.")
             continue
